@@ -1,8 +1,8 @@
 <div align="center">
 
-# 🎃 Halloween WT – Interactive Halloween Effects
+# 🎃 Halloween WT - Interactive Halloween Effects
 
-**Turn any WordPress site into a dark, stormy Halloween night — in one click.**
+**Turn any WordPress site into a dark, stormy Halloween night - in one click.**
 
 Lightning, rain, glowing eyes, fog, ghosts, bats, spiders and pumpkins your visitors can **grab and throw**.
 No theme edits. No page builder changes. Deactivate it and your site is exactly as it was.
@@ -23,14 +23,14 @@ No theme edits. No page builder changes. Deactivate it and your site is exactly 
 
 Halloween WT adds a polished, seasonal effect layer **on top of** your website. Your site sinks into a spooky night: lightning cracks across the sky, rain streaks down, glowing eyes blink at the edges, and ghosts, bats, spiders, skulls and pumpkins drift through the fog.
 
-Then visitors discover the surprise — some of those objects are **alive**:
+Then visitors discover the surprise - some of those objects are **alive**:
 
 | Object | What happens when you touch it |
 | --- | --- |
-| 🎃 **Pumpkins** | Grab, drag and **throw** them — they fall with gravity, bounce and roll |
-| 👻 **Ghosts** | Drag them around — they glide, then float gently back up |
-| 🕷️ **Spiders** | Pull them — they swing like a pendulum on their silk thread |
-| 🦇 **Bats** | Click or tap — they get scared and flee |
+| 🎃 **Pumpkins** | Grab, drag and **throw** them - they fall with gravity, bounce and roll |
+| 👻 **Ghosts** | Drag them around - they glide, then float gently back up |
+| 🕷️ **Spiders** | Pull them - they swing like a pendulum on their silk thread |
+| 🦇 **Bats** | Click or tap - they get scared and flee |
 
 Works with **mouse, touch and stylus**.
 
@@ -58,21 +58,21 @@ Every effect can be switched on/off and tuned with **quantity, size, speed, opac
 
 | Preset | Mood |
 | --- | --- |
-| **Subtle** | Light touch — pumpkins, leaves, webs, soft fog. No lightning or rain. |
+| **Subtle** | Light touch - pumpkins, leaves, webs, soft fog. No lightning or rain. |
 | **Normal** *(default)* | The full stormy night, balanced. |
 | **Spooky** | Darker, more creatures, heavier rain and fog. |
-| **Insane** | Everything maxed out — still performance-capped. |
+| **Insane** | Everything maxed out - still performance-capped. |
 
 Pick a preset, then fine-tune anything you like.
 
 ### 👁️ Live preview before you save
 
-The settings screen has a **live preview** with a desktop/mobile toggle. Every slider updates the preview instantly — grab a pumpkin and notice that the button underneath is still clickable. Administrators can also **preview on the real site** before going live.
+The settings screen has a **live preview** with a desktop/mobile toggle. Every slider updates the preview instantly - grab a pumpkin and notice that the button underneath is still clickable. Administrators can also **preview on the real site** before going live.
 
 ### 📅 Scheduling
 
 * Run whenever enabled, **or** between two dates
-* **Repeat every year** (e.g. October 20 – November 1) — set it once, forget it forever
+* **Repeat every year** (e.g. October 20 - November 1) - set it once, forget it forever
 * Date ranges can span the new year
 * Uses your site's timezone, no cron jobs needed
 
@@ -81,7 +81,7 @@ The settings screen has a **live preview** with a desktop/mobile toggle. Every s
 * Entire site, homepage only, or **selected** pages / posts
 * WooCommerce **shop** and **product** pages support
 * Exclude any page or post
-* **Cart, checkout and account pages are effect-free by default** — your sales are never disturbed
+* **Cart, checkout and account pages are effect-free by default** - your sales are never disturbed
 
 ### 📱 Mobile friendly
 
@@ -93,18 +93,18 @@ The settings screen has a **live preview** with a desktop/mobile toggle. Every s
 
 ## ⚡ Performance
 
-* **Zero cost when off** — nothing is loaded when effects are disabled, scheduled for later, or excluded on the current page.
+* **Zero cost when off** - nothing is loaded when effects are disabled, scheduled for later, or excluded on the current page.
 * Scripts load **deferred**, after your page has finished loading.
 * Everything is drawn on a **single canvas**; SVG artwork is rasterised once and reused.
 * Slow layers (fog, darkness) repaint at ~15 fps; frame rate is capped on 120/144 Hz screens to save battery.
 * Animations **pause** while the browser tab is hidden.
 * Detail is **automatically reduced** on slow devices.
-* **Self-healing:** if anything goes wrong in the animation, the layer quietly removes itself — the page keeps working.
+* **Self-healing:** if anything goes wrong in the animation, the layer quietly removes itself - the page keeps working.
 
 ## ♿ Accessibility
 
-* Respects the visitor's **"reduce motion"** setting (on by default) — only calm, static decoration is shown.
-* **Photosensitivity-safe lightning:** max two flashes per strike, strikes at least 8 seconds apart — never three or more flashes in a second.
+* Respects the visitor's **"reduce motion"** setting (on by default) - only calm, static decoration is shown.
+* **Photosensitivity-safe lightning:** max two flashes per strike, strikes at least 8 seconds apart - never three or more flashes in a second.
 * Decoration is hidden from screen readers, never receives keyboard focus, and is hidden when printing or in high-contrast mode.
 
 ## 🔒 Privacy
@@ -119,13 +119,13 @@ Works with block and classic themes and page builders such as **Elementor, Divi,
 
 ## 📦 Installation
 
-### Option 1 — Upload ZIP (easiest)
+### Option 1 - Upload ZIP (easiest)
 
 1. Download the latest ZIP from the [**Releases**](../../releases) page (or click **Code → Download ZIP** above).
 2. In WordPress go to **Plugins → Add New → Upload Plugin**.
 3. Choose the ZIP file, click **Install Now**, then **Activate**.
 
-### Option 2 — Manual
+### Option 2 - Manual
 
 1. Unzip and copy the `halloween-wt` folder into `/wp-content/plugins/`.
 2. Activate **Halloween WT** from the **Plugins** screen.
@@ -173,7 +173,7 @@ Adjust the layer stacking order under **Settings → Halloween WT → Advanced**
 <details>
 <summary><b>Can I disable effects on a specific page?</b></summary>
 
-Yes — add it under **Display & schedule → Never show on these pages or posts**. Developers can also use the `halloween_wt_should_load` filter (see below).
+Yes - add it under **Display & schedule → Never show on these pages or posts**. Developers can also use the `halloween_wt_should_load` filter (see below).
 </details>
 
 <details>
@@ -223,13 +223,13 @@ halloween-wt/
 
 ## ☕ Support the project
 
-Halloween WT is **free** and always will be. If it made your site a little more fun this October, you can say thanks by buying me a coffee — it keeps the updates (and the pumpkins) coming. 🎃
+Halloween WT is **free** and always will be. If it made your site a little more fun this October, you can say thanks by buying me a coffee - it keeps the updates (and the pumpkins) coming. 🎃
 
 <div align="center">
 
 ### [☕ Buy me a coffee](https://asamshahadat.gumroad.com/l/rueznx?wanted=true)
 
-⭐ **Star this repo** if you like it — and share it with a friend who runs a WordPress site!
+⭐ **Star this repo** if you like it - and share it with a friend who runs a WordPress site!
 
 </div>
 
@@ -242,4 +242,4 @@ Found a bug or have an idea? [Open an issue](../../issues).
 Released under the [GNU General Public License v2.0 or later](LICENSE).
 All artwork (pumpkins, bats, ghosts, spiders, webs, skulls and leaves) is original work created for this plugin and released under the same license.
 
-Made with 🧡 by **Shahadat**
+Made with 🧡 by **[Shahadat](https://shahadatdev.com/)**
