@@ -1,0 +1,637 @@
+# Copyright (C) 2026 Shahadat
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Halloween WT – Interactive Halloween Effects 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/halloween-wt\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-05T09:58:45+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: halloween-wt\n"
+
+#. Plugin Name of the plugin
+#: halloween-wt.php
+msgid "Halloween WT – Interactive Halloween Effects"
+msgstr ""
+
+#. Description of the plugin
+#: halloween-wt.php
+msgid "Turns your site into a dark, stormy Halloween night – lightning, rain, glowing eyes, ghosts, bats and pumpkins visitors can grab and throw – without touching your theme or content."
+msgstr ""
+
+#. Author of the plugin
+#: halloween-wt.php
+msgid "Shahadat"
+msgstr ""
+
+#: includes/class-halloween-wt-admin.php:54
+#: includes/class-halloween-wt-admin.php:55
+#: includes/views/settings-page.php:64
+msgid "Halloween WT"
+msgstr ""
+
+#: includes/class-halloween-wt-admin.php:72
+msgid "Settings"
+msgstr ""
+
+#: includes/class-halloween-wt-admin.php:130
+msgid "Sorry, you are not allowed to manage these settings."
+msgstr ""
+
+#: includes/class-halloween-wt-admin.php:140
+msgid "Settings were reset to their defaults."
+msgstr ""
+
+#: includes/class-halloween-wt-admin.php:174
+msgid "Darkness"
+msgstr ""
+
+#: includes/class-halloween-wt-admin.php:175
+msgid "A gloomy vignette that darkens the screen edges. The reading area stays light."
+msgstr ""
+
+#: includes/class-halloween-wt-admin.php:178
+msgid "Thunder & lightning"
+msgstr ""
+
+#: includes/class-halloween-wt-admin.php:179
+msgid "Branching lightning bolts that light up the darkness. Never more than two flashes per strike."
+msgstr ""
+
+#: includes/class-halloween-wt-admin.php:182
+msgid "Rain"
+msgstr ""
+
+#: includes/class-halloween-wt-admin.php:183
+msgid "Slanted storm rain streaking across the page."
+msgstr ""
+
+#: includes/class-halloween-wt-admin.php:186
+msgid "Storm clouds"
+msgstr ""
+
+#: includes/class-halloween-wt-admin.php:187
+msgid "Dark clouds drifting along the top edge."
+msgstr ""
+
+#: includes/class-halloween-wt-admin.php:190
+msgid "Eyes in the dark"
+msgstr ""
+
+#: includes/class-halloween-wt-admin.php:191
+msgid "Glowing eyes that open near the edges, blink, and vanish."
+msgstr ""
+
+#: includes/class-halloween-wt-admin.php:194
+msgid "Pumpkins"
+msgstr ""
+
+#: includes/class-halloween-wt-admin.php:195
+msgid "Glowing jack-o’-lanterns tumbling down the screen."
+msgstr ""
+
+#: includes/class-halloween-wt-admin.php:198
+msgid "Bats"
+msgstr ""
+
+#: includes/class-halloween-wt-admin.php:199
+msgid "Bats flapping across the page on wavy flight paths."
+msgstr ""
+
+#: includes/class-halloween-wt-admin.php:202
+msgid "Ghosts"
+msgstr ""
+
+#: includes/class-halloween-wt-admin.php:203
+msgid "Friendly translucent ghosts that drift, then fade away."
+msgstr ""
+
+#: includes/class-halloween-wt-admin.php:206
+msgid "Spiders"
+msgstr ""
+
+#: includes/class-halloween-wt-admin.php:207
+msgid "Spiders lowering themselves on silk threads."
+msgstr ""
+
+#: includes/class-halloween-wt-admin.php:210
+msgid "Spider webs"
+msgstr ""
+
+#: includes/class-halloween-wt-admin.php:211
+msgid "Cobwebs in the top corners of the screen."
+msgstr ""
+
+#: includes/class-halloween-wt-admin.php:214
+msgid "Fog"
+msgstr ""
+
+#: includes/class-halloween-wt-admin.php:215
+msgid "Low mist along the bottom edge. It never covers the middle of the page."
+msgstr ""
+
+#: includes/class-halloween-wt-admin.php:218
+msgid "Particles"
+msgstr ""
+
+#: includes/class-halloween-wt-admin.php:219
+msgid "Tiny glowing embers rising slowly."
+msgstr ""
+
+#: includes/class-halloween-wt-admin.php:222
+msgid "Autumn leaves"
+msgstr ""
+
+#: includes/class-halloween-wt-admin.php:223
+msgid "Fluttering maple, oak and elm leaves."
+msgstr ""
+
+#: includes/class-halloween-wt-admin.php:226
+msgid "Skulls"
+msgstr ""
+
+#: includes/class-halloween-wt-admin.php:227
+msgid "Slowly tumbling skulls for a spookier look."
+msgstr ""
+
+#: includes/class-halloween-wt-admin.php:239
+msgid "Quantity"
+msgstr ""
+
+#: includes/class-halloween-wt-admin.php:240
+msgid "Size"
+msgstr ""
+
+#: includes/class-halloween-wt-admin.php:241
+msgid "Speed"
+msgstr ""
+
+#: includes/class-halloween-wt-admin.php:242
+msgid "Opacity"
+msgstr ""
+
+#: includes/class-halloween-wt-admin.php:243
+msgid "Intensity"
+msgstr ""
+
+#: includes/class-halloween-wt-admin.php:244
+msgid "Fog height"
+msgstr ""
+
+#: includes/class-halloween-wt-admin.php:245
+msgid "Fog color"
+msgstr ""
+
+#: includes/class-halloween-wt-admin.php:246
+msgid "Frequency"
+msgstr ""
+
+#: includes/class-halloween-wt-admin.php:247
+msgid "Show lightning bolts"
+msgstr ""
+
+#. translators: %d: post ID.
+#: includes/class-halloween-wt-admin.php:461
+#: assets/js/admin.js:298
+#, php-format,js-format
+msgid "#%d (no title)"
+msgstr ""
+
+#. translators: %s: page or post title.
+#: includes/class-halloween-wt-admin.php:466
+#: assets/js/admin.js:277
+#, php-format,js-format
+msgid "Remove %s"
+msgstr ""
+
+#: includes/class-halloween-wt-admin.php:471
+msgid "Search by title…"
+msgstr ""
+
+#: includes/class-halloween-wt-admin.php:511
+msgid "Shadow color"
+msgstr ""
+
+#: includes/class-halloween-wt-admin.php:519
+msgid "Rare"
+msgstr ""
+
+#: includes/class-halloween-wt-admin.php:520
+msgid "Occasional"
+msgstr ""
+
+#: includes/class-halloween-wt-admin.php:521
+msgid "Frequent"
+msgstr ""
+
+#: includes/class-halloween-wt-settings.php:755
+msgid "Please choose both a start and an end date for the schedule. Effects stay off until the schedule is valid."
+msgstr ""
+
+#: includes/class-halloween-wt-settings.php:766
+msgid "The schedule end date is before the start date. Effects stay off until the schedule is valid."
+msgstr ""
+
+#: includes/views/settings-page.php:21
+msgid "Effects are switched off"
+msgstr ""
+
+#: includes/views/settings-page.php:22
+msgid "Visitors do not see any effects and no plugin files are loaded on your site."
+msgstr ""
+
+#: includes/views/settings-page.php:25
+msgid "Scheduled"
+msgstr ""
+
+#. translators: 1: start date, 2: end date.
+#: includes/views/settings-page.php:28
+#, php-format
+msgid "Effects will run from %1$s until %2$s."
+msgstr ""
+
+#: includes/views/settings-page.php:34
+msgid "Schedule ended"
+msgstr ""
+
+#: includes/views/settings-page.php:35
+msgid "The scheduled period is over. Choose new dates or turn on \"Repeat every year\"."
+msgstr ""
+
+#: includes/views/settings-page.php:38
+msgid "Schedule needs attention"
+msgstr ""
+
+#: includes/views/settings-page.php:39
+msgid "The schedule dates are incomplete or out of order, so effects stay off."
+msgstr ""
+
+#: includes/views/settings-page.php:42
+msgid "Live on your site"
+msgstr ""
+
+#. translators: %s: end date.
+#: includes/views/settings-page.php:46
+#, php-format
+msgid "Effects are running until %s (subject to your display rules)."
+msgstr ""
+
+#: includes/views/settings-page.php:49
+msgid "Effects are running (subject to your display rules)."
+msgstr ""
+
+#: includes/views/settings-page.php:53
+#: includes/views/settings-page.php:94
+msgid "General"
+msgstr ""
+
+#: includes/views/settings-page.php:54
+#: includes/views/settings-page.php:124
+msgid "Effects"
+msgstr ""
+
+#: includes/views/settings-page.php:55
+msgid "Interactive"
+msgstr ""
+
+#: includes/views/settings-page.php:56
+msgid "Display & schedule"
+msgstr ""
+
+#: includes/views/settings-page.php:57
+msgid "Mobile & accessibility"
+msgstr ""
+
+#: includes/views/settings-page.php:58
+#: includes/views/settings-page.php:298
+msgid "Advanced"
+msgstr ""
+
+#: includes/views/settings-page.php:74
+msgid "Preview on site"
+msgstr ""
+
+#: includes/views/settings-page.php:75
+msgid "(opens in a new tab)"
+msgstr ""
+
+#: includes/views/settings-page.php:84
+msgid "Settings sections"
+msgstr ""
+
+#: includes/views/settings-page.php:99
+msgid "Enable Halloween effects"
+msgstr ""
+
+#: includes/views/settings-page.php:100
+msgid "Master switch. When off, nothing is loaded on your site."
+msgstr ""
+
+#: includes/views/settings-page.php:108
+msgid "Intensity preset"
+msgstr ""
+
+#: includes/views/settings-page.php:110
+#: includes/views/settings-page.php:159
+msgid "Subtle"
+msgstr ""
+
+#: includes/views/settings-page.php:111
+#: includes/views/settings-page.php:160
+msgid "Normal"
+msgstr ""
+
+#: includes/views/settings-page.php:112
+msgid "Spooky"
+msgstr ""
+
+#: includes/views/settings-page.php:113
+msgid "Insane"
+msgstr ""
+
+#: includes/views/settings-page.php:114
+msgid "Custom"
+msgstr ""
+
+#: includes/views/settings-page.php:116
+msgid "Choosing a preset fills in the effect settings for you. You can fine-tune everything afterwards. Even \"Insane\" stays within safe performance limits."
+msgstr ""
+
+#: includes/views/settings-page.php:136
+msgid "Interactive objects"
+msgstr ""
+
+#: includes/views/settings-page.php:141
+msgid "Enable interactive objects"
+msgstr ""
+
+#: includes/views/settings-page.php:142
+msgid "A few larger objects can be grabbed, thrown or tapped. Only their small grab zone reacts to the pointer – everything else on your site stays clickable."
+msgstr ""
+
+#: includes/views/settings-page.php:147
+msgid "Pumpkins can be dragged and thrown"
+msgstr ""
+
+#: includes/views/settings-page.php:148
+msgid "Ghosts can be dragged and float away"
+msgstr ""
+
+#: includes/views/settings-page.php:149
+msgid "Spiders can be pulled and swing"
+msgstr ""
+
+#: includes/views/settings-page.php:150
+msgid "Bats fly away when clicked"
+msgstr ""
+
+#: includes/views/settings-page.php:154
+msgid "Maximum interactive objects"
+msgstr ""
+
+#: includes/views/settings-page.php:157
+msgid "Interaction intensity"
+msgstr ""
+
+#: includes/views/settings-page.php:161
+msgid "Playful"
+msgstr ""
+
+#: includes/views/settings-page.php:163
+msgid "Controls how far objects can be thrown and how bouncy they are."
+msgstr ""
+
+#: includes/views/settings-page.php:171
+msgid "Where to show effects"
+msgstr ""
+
+#: includes/views/settings-page.php:176
+msgid "Show effects on"
+msgstr ""
+
+#: includes/views/settings-page.php:178
+msgid "Entire website"
+msgstr ""
+
+#: includes/views/settings-page.php:179
+msgid "Homepage only"
+msgstr ""
+
+#: includes/views/settings-page.php:180
+msgid "Selected locations"
+msgstr ""
+
+#: includes/views/settings-page.php:186
+msgid "Homepage"
+msgstr ""
+
+#: includes/views/settings-page.php:187
+msgid "Selected pages"
+msgstr ""
+
+#: includes/views/settings-page.php:188
+msgid "Selected posts"
+msgstr ""
+
+#: includes/views/settings-page.php:191
+msgid "WooCommerce shop and product categories"
+msgstr ""
+
+#: includes/views/settings-page.php:192
+#: includes/views/settings-page.php:197
+msgid "Only applies when WooCommerce is active."
+msgstr ""
+
+#: includes/views/settings-page.php:196
+msgid "WooCommerce product pages"
+msgstr ""
+
+#: includes/views/settings-page.php:206
+msgid "Never show on these pages or posts"
+msgstr ""
+
+#: includes/views/settings-page.php:208
+msgid "Exclusions always win over the rules above."
+msgstr ""
+
+#: includes/views/settings-page.php:212
+msgid "Keep cart, checkout and account pages effect-free"
+msgstr ""
+
+#: includes/views/settings-page.php:213
+msgid "Recommended for shops so buying stays distraction-free."
+msgstr ""
+
+#: includes/views/settings-page.php:218
+msgid "Schedule"
+msgstr ""
+
+#: includes/views/settings-page.php:223
+msgid "Run effects"
+msgstr ""
+
+#: includes/views/settings-page.php:225
+msgid "Whenever enabled"
+msgstr ""
+
+#: includes/views/settings-page.php:226
+msgid "Between dates"
+msgstr ""
+
+#: includes/views/settings-page.php:233
+msgid "Start date"
+msgstr ""
+
+#: includes/views/settings-page.php:234
+msgid "End date"
+msgstr ""
+
+#: includes/views/settings-page.php:240
+msgid "Repeat every year"
+msgstr ""
+
+#: includes/views/settings-page.php:241
+msgid "Only the day and month are used, so the same dates work every season. Periods across New Year are supported."
+msgstr ""
+
+#. translators: %s: timezone name.
+#: includes/views/settings-page.php:248
+#, php-format
+msgid "Dates use your site timezone (%s). Effects start at the beginning of the start date and stop at the end of the end date."
+msgstr ""
+
+#: includes/views/settings-page.php:259
+msgid "Mobile & tablets"
+msgstr ""
+
+#: includes/views/settings-page.php:262
+msgid "Enable effects on mobile"
+msgstr ""
+
+#: includes/views/settings-page.php:265
+msgid "Enable interactive objects on mobile"
+msgstr ""
+
+#: includes/views/settings-page.php:266
+msgid "Touch devices show at most three interactive objects."
+msgstr ""
+
+#: includes/views/settings-page.php:270
+msgid "Mobile density"
+msgstr ""
+
+#: includes/views/settings-page.php:272
+msgid "Low"
+msgstr ""
+
+#: includes/views/settings-page.php:273
+msgid "Medium"
+msgstr ""
+
+#: includes/views/settings-page.php:274
+msgid "High"
+msgstr ""
+
+#: includes/views/settings-page.php:276
+msgid "Phones and tablets always use reduced limits to protect battery and scrolling performance."
+msgstr ""
+
+#: includes/views/settings-page.php:281
+msgid "Accessibility"
+msgstr ""
+
+#: includes/views/settings-page.php:286
+msgid "Respect reduced motion preference"
+msgstr ""
+
+#: includes/views/settings-page.php:287
+msgid "Visitors who ask their device to reduce motion see only calm, static decoration (webs and fog). Strongly recommended."
+msgstr ""
+
+#: includes/views/settings-page.php:291
+msgid "Effects are always hidden from screen readers, never receive keyboard focus, and are hidden when printing or in high-contrast mode."
+msgstr ""
+
+#: includes/views/settings-page.php:303
+msgid "Layer stacking order (z-index)"
+msgstr ""
+
+#: includes/views/settings-page.php:304
+msgid "Default 9990: above most page content and sticky headers, below most pop-ups, modals and cookie banners. The layer never blocks clicks, so this only affects what is drawn on top."
+msgstr ""
+
+#: includes/views/settings-page.php:311
+msgid "Save changes"
+msgstr ""
+
+#: includes/views/settings-page.php:315
+msgid "Reset all Halloween WT settings to their defaults?"
+msgstr ""
+
+#: includes/views/settings-page.php:318
+msgid "Reset all settings to defaults"
+msgstr ""
+
+#: includes/views/settings-page.php:325
+msgid "Live preview"
+msgstr ""
+
+#: includes/views/settings-page.php:327
+msgid "Preview device"
+msgstr ""
+
+#: includes/views/settings-page.php:328
+msgid "Desktop"
+msgstr ""
+
+#: includes/views/settings-page.php:329
+msgid "Mobile"
+msgstr ""
+
+#: includes/views/settings-page.php:331
+#: assets/js/admin.js:552
+msgid "Pause"
+msgstr ""
+
+#: includes/views/settings-page.php:338
+msgid "Your Site"
+msgstr ""
+
+#: includes/views/settings-page.php:345
+msgid "Click me"
+msgstr ""
+
+#: includes/views/settings-page.php:354
+msgid "The preview updates as you change settings, before saving. Try grabbing a pumpkin, and notice the button underneath stays clickable."
+msgstr ""
+
+#: assets/js/admin.js:307
+msgid "No matching content found."
+msgstr ""
+
+#: assets/js/admin.js:494
+msgid "Effects are switched off for visitors; the preview still shows them."
+msgstr ""
+
+#: assets/js/admin.js:503
+msgid "Effects are turned off for mobile visitors."
+msgstr ""
+
+#: assets/js/admin.js:515
+msgid "Your device asks for reduced motion, so the preview shows the calm, static version."
+msgstr ""
+
+#: assets/js/admin.js:551
+msgid "Play"
+msgstr ""
+
+#. translators: %d: number of clicks.
+#: assets/js/admin.js:567
+#, js-format
+msgid "Clicked %d× – effects never block your site."
+msgstr ""

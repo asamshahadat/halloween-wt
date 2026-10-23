@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="110" height="140" viewBox="0 0 110 140">
+	<defs>
+		<linearGradient id="hwt-gh-body" x1="0" y1="0" x2="0" y2="1">
+			<stop offset="0" stop-color="#f3f1fa" stop-opacity=".96"/>
+			<stop offset=".5" stop-color="#d6d1e6" stop-opacity=".85"/>
+			<stop offset=".85" stop-color="#b3abcf" stop-opacity=".35"/>
+			<stop offset="1" stop-color="#9f97c2" stop-opacity="0"/>
+		</linearGradient>
+		<radialGradient id="hwt-gh-shade" cx="72%" cy="38%" r="65%">
+			<stop offset="0" stop-color="#8c80b8" stop-opacity="0"/>
+			<stop offset="1" stop-color="#5a4f80" stop-opacity=".4"/>
+		</radialGradient>
+		<radialGradient id="hwt-gh-void" cx="50%" cy="35%" r="65%">
+			<stop offset="0" stop-color="#000"/>
+			<stop offset=".7" stop-color="#0e0816"/>
+			<stop offset="1" stop-color="#2e2340"/>
+		</radialGradient>
+	</defs>
+	<path d="M20 58c-10 6-15 20-13 36 4-9 9-14 15-15z" fill="url(#hwt-gh-body)"/>
+	<path d="M90 58c10 6 15 20 13 36-4-9-9-14-15-15z" fill="url(#hwt-gh-body)"/>
+	<path d="M55 4C30 4 17 24 17 52c0 20-4 38-9 54 6-4 10-1 12 7 4-8 9-8 12 4 4-10 9-10 13 10 4-14 10-14 14 9 4-16 9-16 13-5 4-12 9-12 13-3 2-8 7-11 13-8-5-16-9-34-9-56 0-28-13-48-38-48z" fill="url(#hwt-gh-body)"/>
+	<path d="M55 4C30 4 17 24 17 52c0 20-4 38-9 54 6-4 10-1 12 7 4-8 9-8 12 4 4-10 9-10 13 10 4-14 10-14 14 9 4-16 9-16 13-5 4-12 9-12 13-3 2-8 7-11 13-8-5-16-9-34-9-56 0-28-13-48-38-48z" fill="url(#hwt-gh-shade)"/>
+	<path d="M33 38c-5 4-6 17 2 21 9 3 13-8 10-15-2-5-7-8-12-6z" fill="url(#hwt-gh-void)"/>
+	<path d="M77 38c5 4 6 17-2 21-9 3-13-8-10-15 2-5 7-8 12-6z" fill="url(#hwt-gh-void)"/>
+	<path d="M37 59c0 6-1 11 0 17M73 59c0 7 1 12 0 19" fill="none" stroke="#2a2038" stroke-opacity=".35" stroke-width="1.6" stroke-linecap="round"/>
+	<path d="M55 66c-6 0-9 7-9 15 0 9 4 18 9 18s9-9 9-18c0-8-3-15-9-15z" fill="url(#hwt-gh-void)"/>
+</svg>

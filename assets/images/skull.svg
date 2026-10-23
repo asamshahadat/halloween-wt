@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="112" viewBox="0 0 100 112">
+	<defs>
+		<radialGradient id="hwt-sk-bone" cx="40%" cy="30%" r="75%">
+			<stop offset="0" stop-color="#fffaf0"/>
+			<stop offset=".6" stop-color="#ece2cc"/>
+			<stop offset="1" stop-color="#b9ab8c"/>
+		</radialGradient>
+	</defs>
+	<path d="M50 6C25 6 8 23 8 47c0 14 6 24 15 30v14c0 5 4 9 9 9h36c5 0 9-4 9-9V77c9-6 15-16 15-30C92 23 75 6 50 6z" fill="url(#hwt-sk-bone)" stroke="#a39577" stroke-width="1.5"/>
+	<path d="M36 100V88M44 101V88M52 101V88M60 101V88M68 100V88" stroke="#8f8264" stroke-width="2" stroke-linecap="round"/>
+	<path d="M24 50c0-9 6-14 13-14s12 5 12 13-6 14-13 14-12-5-12-13z" fill="#2a2230"/>
+	<path d="M51 49c0-8 5-13 12-13s13 5 13 14-5 13-12 13-13-6-13-14z" fill="#2a2230"/>
+	<path d="M50 64l-6 11h12z" fill="#2a2230"/>
+	<circle cx="40" cy="47" r="2.2" fill="#ff9a2a" fill-opacity=".85"/>
+	<circle cx="66" cy="47" r="2.2" fill="#ff9a2a" fill-opacity=".85"/>
+	<path d="M30 22c6-6 14-9 22-9" fill="none" stroke="#fff" stroke-opacity=".6" stroke-width="3" stroke-linecap="round"/>
+</svg>

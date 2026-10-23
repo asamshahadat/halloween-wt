@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="116" viewBox="0 0 128 116">
+	<defs>
+		<radialGradient id="hwt-pp-body" cx="40%" cy="32%" r="74%">
+			<stop offset="0" stop-color="#ffc56b"/>
+			<stop offset=".5" stop-color="#ee7a1c"/>
+			<stop offset="1" stop-color="#a83d0a"/>
+		</radialGradient>
+		<linearGradient id="hwt-pp-stem" x1="0" y1="0" x2="1" y2="1">
+			<stop offset="0" stop-color="#9a8a52"/>
+			<stop offset="1" stop-color="#4f4222"/>
+		</linearGradient>
+		<linearGradient id="hwt-pp-leaf" x1="0" y1="0" x2="1" y2="1">
+			<stop offset="0" stop-color="#8fb34a"/>
+			<stop offset="1" stop-color="#46661c"/>
+		</linearGradient>
+	</defs>
+	<path d="M60 26c-1-9 1-16 6-21l7 3c-4 5-5 11-4 18z" fill="url(#hwt-pp-stem)"/>
+	<path d="M70 20c10-12 26-12 32-4-10 2-16 8-32 4z" fill="url(#hwt-pp-leaf)"/>
+	<g stroke="#8f3507" stroke-opacity=".35" stroke-width="1.5">
+		<ellipse cx="32" cy="70" rx="28" ry="36" fill="url(#hwt-pp-body)"/>
+		<ellipse cx="96" cy="70" rx="28" ry="36" fill="url(#hwt-pp-body)"/>
+		<ellipse cx="49" cy="70" rx="29" ry="41" fill="url(#hwt-pp-body)"/>
+		<ellipse cx="79" cy="70" rx="29" ry="41" fill="url(#hwt-pp-body)"/>
+		<ellipse cx="64" cy="70" rx="23" ry="43" fill="url(#hwt-pp-body)"/>
+	</g>
+	<ellipse cx="44" cy="42" rx="6" ry="11" fill="#fff" fill-opacity=".25" transform="rotate(-22 44 42)"/>
+</svg>

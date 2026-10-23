@@ -1,0 +1,115 @@
+/**
+ * Halloween WT – front-end layer.
+ *
+ * The layer never receives pointer events; only the small grab zones of
+ * interactive objects do.
+ */
+
+.hwt-layer {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 9990;
+	overflow: hidden;
+	pointer-events: none;
+	opacity: 0;
+	transition: opacity 1.2s ease;
+	contain: strict;
+}
+
+.hwt-layer.is-active {
+	opacity: 1;
+}
+
+.hwt-layer--contained {
+	position: absolute;
+	z-index: 0;
+}
+
+.hwt-canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.hwt-heroes {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.hwt-hero {
+	position: absolute;
+	top: 0;
+	left: 0;
+	pointer-events: none;
+	will-change: transform;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+.hwt-hero__img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	max-width: none;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	pointer-events: none;
+	transition: filter 0.2s ease;
+}
+
+.hwt-hero__hit {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	border-radius: 50%;
+	cursor: grab;
+	pointer-events: auto;
+	touch-action: none;
+	-webkit-touch-callout: none;
+	-webkit-tap-highlight-color: transparent;
+}
+
+.hwt-hero__hit.is-tap {
+	cursor: pointer;
+}
+
+.hwt-hero.is-inert .hwt-hero__hit {
+	pointer-events: none;
+}
+
+.hwt-hero.is-hover .hwt-hero__img {
+	filter: drop-shadow(0 0 6px rgba(255, 170, 60, 0.85));
+}
+
+.hwt-hero.is-dragging .hwt-hero__hit {
+	cursor: grabbing;
+}
+
+.hwt-hero.is-dragging .hwt-hero__img {
+	filter: drop-shadow(0 8px 10px rgba(0, 0, 0, 0.35));
+}
+
+@media print {
+
+	.hwt-layer {
+		display: none !important;
+	}
+}
+
+@media (forced-colors: active) {
+
+	.hwt-layer {
+		display: none !important;
+	}
+}
