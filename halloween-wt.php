@@ -1,7 +1,7 @@
 <?php
 /**
- * Plugin Name:       Halloween WT – Interactive Halloween Effects
- * Description:       Turns your site into a dark, stormy Halloween night – lightning, rain, glowing eyes, ghosts, bats and pumpkins visitors can grab and throw – without touching your theme or content.
+ * Plugin Name:       Halloween WT - Interactive Halloween Effects
+ * Description:       Turns your site into a dark, stormy Halloween night - lightning, rain, glowing eyes, ghosts, bats and pumpkins visitors can grab and throw – without touching your theme or content.
  * Version:           1.0.0
  * Requires at least: 6.3
  * Requires PHP:      7.4
